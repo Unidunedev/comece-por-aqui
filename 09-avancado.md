@@ -145,4 +145,4 @@ No seu `treino-git`:
 
 ---
 
-[⬅️ Quando dá errado](08-quando-da-errado.md) · [Glossário 📖](glossario.md)
+[⬅️ Quando dá errado](08-quando-da-errado.md) · [Chave SSH 🔐](03-configuracao/ssh.md) · [Glossário 📖](glossario.md)

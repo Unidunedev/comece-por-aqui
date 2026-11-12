@@ -16,11 +16,11 @@ flowchart LR
 Copia um repositório do GitHub para o seu computador, **com todo o histórico**:
 
 ```bash
-git clone git@github.com:Unidunedev/onboarding.git
+git clone https://github.com/Unidunedev/onboarding.git
 cd onboarding
 ```
 
-> Usando HTTPS em vez de SSH? O endereço fica `https://github.com/Unidunedev/onboarding.git`. Você encontra os dois no botão verde **`<> Code`** de qualquer repositório.
+> Você encontra esse endereço no botão verde **`<> Code`** de qualquer repositório. Já configurou o [SSH](03-configuracao/ssh.md)? Use a aba **SSH**, com endereço `git@github.com:...`.
 
 O Git já cria automaticamente um remoto chamado **`origin`**, apontando para onde você clonou:
 
@@ -43,6 +43,8 @@ git pull
 ```bash
 git push
 ```
+
+> 🔐 No **primeiro push**, o Git abre o navegador (ou uma janelinha) para você entrar na sua conta do GitHub. Depois disso, o acesso fica salvo.
 
 Na **primeira vez** que você envia uma branch nova, o Git precisa saber para onde mandar:
 
@@ -73,7 +75,7 @@ Quer colocar o seu `treino-git` no GitHub?
 2. No terminal, dentro da pasta do projeto:
 
 ```bash
-git remote add origin git@github.com:SEU-USERNAME/treino-git.git
+git remote add origin https://github.com/SEU-USERNAME/treino-git.git
 git push -u origin main
 ```
 

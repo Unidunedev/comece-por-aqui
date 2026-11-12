@@ -14,6 +14,7 @@ Primeira regra: **calma, quase tudo no Git tem volta.** Antes de qualquer coisa,
 - [Commitei na branch errada](#commitei-na-branch-errada)
 - [Conflito de merge](#conflito-de-merge)
 - [Push rejeitado](#push-rejeitado-rejected--non-fast-forward)
+- [Login errado ou sem permissão no push (HTTPS)](#login-errado-ou-sem-permissão-no-push-https)
 - [Permission denied (publickey)](#permission-denied-publickey)
 - [Detached HEAD](#detached-head)
 - [Fiquei preso numa tela estranha](#fiquei-preso-numa-tela-estranha)
@@ -131,14 +132,30 @@ git push
 
 Se aparecer conflito no `pull`, resolva como explicado acima.
 
+## Login errado ou sem permissão no push (HTTPS)
+
+```
+remote: Permission to Unidunedev/onboarding.git denied to fulano.
+fatal: unable to access '...': The requested URL returned error: 403
+```
+
+Duas causas comuns:
+
+1. **Você está tentando enviar para o repositório da organização**, e não para o seu fork. Confira com `git remote -v`: o `origin` precisa ser `github.com/SEU-USERNAME/...`. Veja o [guia de fork](07-fork-e-pull-request.md).
+2. **O computador guardou a conta errada** (de outra pessoa ou outra conta sua). Apague o login salvo e faça o push de novo, que ele pede para entrar:
+   - **Windows:** menu Iniciar → **Gerenciador de Credenciais** → **Credenciais do Windows** → remova as que começam com `git:https://github.com`.
+   - **Mac:** abra o app **Acesso às Chaves** (Keychain Access), pesquise `github.com` e apague o item.
+
 ## Permission denied (publickey)
+
+> Só acontece se você configurou o [SSH (opcional)](03-configuracao/ssh.md).
 
 O GitHub não reconheceu sua chave SSH. Confira:
 
 1. `ssh -T git@github.com` funciona? Se não, refaça o [guia de SSH](03-configuracao/ssh.md).
 2. A chave **pública** (`.pub`) está cadastrada no GitHub?
 3. O agente tem a chave carregada? Rode `ssh-add -l`. Se não listar nada, rode o `ssh-add` do guia de novo.
-4. Plano B: use o endereço **HTTPS** do repositório.
+4. Plano B: volte para o **HTTPS** com `git remote set-url origin https://github.com/SEU-USERNAME/NOME-DO-REPO.git`.
 
 ## Detached HEAD
 

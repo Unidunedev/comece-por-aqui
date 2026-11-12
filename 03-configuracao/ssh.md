@@ -1,6 +1,8 @@
-# 3.3 Conectando ao GitHub com SSH
+# 🚀 Extra: conectando ao GitHub com SSH
 
-> ⏱️ 10 minutos · Feito uma vez por computador.
+> ⏱️ 15 minutos · Feito uma vez por computador.
+
+> 🟡 **Etapa opcional.** Se você está começando, **pule** e volte aqui depois do seu primeiro PR. Até lá, o login pelo navegador (HTTPS) resolve tudo.
 
 Para enviar código ao GitHub, ele precisa saber que é você. Existem dois jeitos:
 
@@ -10,7 +12,7 @@ Para enviar código ao GitHub, ele precisa saber que é você. Existem dois jeit
 | Endereço do repositório | `https://github.com/...` | `git@github.com:...` |
 | Para quem | Mais simples para começar | Mais usado no dia a dia profissional |
 
-> 💡 **Quer ir rápido?** O HTTPS já funciona: no Windows, o **Git Credential Manager** abre o navegador para login no primeiro `git push`. No Mac, o login fica salvo nas **Chaves (Keychain)**. Você pode pular este guia e voltar depois. Mas recomendamos aprender o SSH: você vai encontrá-lo em todo lugar.
+> 💡 Você já usa HTTPS desde o início da trilha. Então por que aprender SSH? Porque ele é o padrão em muitas empresas e servidores, e você vai encontrá-lo em todo lugar.
 
 ## Como funciona uma chave SSH?
 
@@ -146,4 +148,12 @@ Abra o arquivo `id_ed25519.pub` num editor de texto e compare com a chave que ap
 
 ---
 
-[⬅️ .gitconfig](gitconfig.md) · [Próximo: Primeiros comandos ➡️](../04-primeiros-comandos.md)
+Depois de configurar, troque o endereço dos seus repositórios para SSH:
+
+```bash
+git remote set-url origin git@github.com:SEU-USERNAME/NOME-DO-REPO.git
+```
+
+---
+
+[⬅️ Início](../README.md) · [Avançado ➡️](../09-avancado.md)

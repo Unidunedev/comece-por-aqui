@@ -32,14 +32,14 @@ Agora existe `github.com/SEU-USERNAME/onboarding`.
 ### 2. Clonar o **seu fork**
 
 ```bash
-git clone git@github.com:SEU-USERNAME/onboarding.git
+git clone https://github.com/SEU-USERNAME/onboarding.git
 cd onboarding
 ```
 
 ### 3. Conectar ao projeto original
 
 ```bash
-git remote add upstream git@github.com:Unidunedev/onboarding.git
+git remote add upstream https://github.com/Unidunedev/onboarding.git
 git remote -v
 ```
 

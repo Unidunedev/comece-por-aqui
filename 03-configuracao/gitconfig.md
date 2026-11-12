@@ -109,4 +109,4 @@ Crie um alias seu: `git hoje`, que mostra só os commits das últimas 24 horas. 
 
 ---
 
-[⬅️ Identidade](identidade.md) · [Próximo: Chave SSH ➡️](ssh.md)
+[⬅️ Identidade](identidade.md) · [Próximo: Primeiros comandos ➡️](../04-primeiros-comandos.md)
