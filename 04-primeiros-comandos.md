@@ -180,4 +180,4 @@ flowchart LR
 
 ---
 
-[⬅️ SSH](03-configuracao/ssh.md) · [Próximo: Branches ➡️](05-branches.md)
+[⬅️ .gitconfig](03-configuracao/gitconfig.md) · [Próximo: Branches ➡️](05-branches.md)

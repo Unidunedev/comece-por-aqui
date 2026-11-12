@@ -25,7 +25,8 @@
 | **Remote (remoto)** | Cópia do repositório em outro lugar, geralmente no GitHub |
 | **Repositório (repo)** | A pasta do projeto com todo o histórico do Git |
 | **Review (revisão)** | Quando alguém lê o seu PR e aprova ou sugere mudanças |
-| **SSH** | Forma segura de autenticar no GitHub usando um par de chaves |
+| **HTTPS** | Forma padrão de conectar ao GitHub: você faz login pelo navegador no primeiro push |
+| **SSH** | Forma alternativa de autenticar no GitHub usando um par de chaves (opcional nesta trilha) |
 | **Staging (área de preparo)** | Onde ficam as mudanças escolhidas para o próximo commit (`git add`) |
 | **Stash** | "Gaveta" para guardar mudanças temporariamente sem commitar |
 | **Tag** | Etiqueta fixa num commit, usada para marcar versões |

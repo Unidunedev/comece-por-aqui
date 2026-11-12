@@ -27,14 +27,24 @@ Siga na ordem. Cada etapa termina com um **✅ Checkpoint** para você conferir 
 | 0 | [O que é Git e GitHub?](00-o-que-e-git-e-github.md) | A ideia por trás de tudo, sem comandos | 10 min |
 | 1 | Instalação: [Windows](01-instalacao/windows.md) · [Mac](01-instalacao/mac.md) | Colocar o Git no seu computador | 10 min |
 | 2 | [Conta no GitHub](02-conta-no-github.md) | Criar e preparar sua conta | 5 min |
-| 3 | Configuração: [identidade](03-configuracao/identidade.md) · [.gitconfig](03-configuracao/gitconfig.md) · [SSH](03-configuracao/ssh.md) | Dizer ao Git quem você é e conectar ao GitHub | 20 min |
+| 3 | Configuração: [identidade](03-configuracao/identidade.md) · [.gitconfig](03-configuracao/gitconfig.md) | Dizer ao Git quem você é e deixá-lo confortável | 15 min |
 | 4 | [Primeiros comandos](04-primeiros-comandos.md) | `init`, `status`, `add`, `commit`, `log` | 20 min |
 | 5 | [Branches](05-branches.md) | Trabalhar em paralelo sem bagunçar nada | 15 min |
 | 6 | [Repositórios remotos](06-remoto.md) | `clone`, `push`, `pull`, `fetch` | 15 min |
 | 7 | [Fork e Pull Request](07-fork-e-pull-request.md) | O fluxo completo do Desafio do 1º PR | 20 min |
 | 8 | [Quando dá errado](08-quando-da-errado.md) | Conflitos, desfazer coisas e erros comuns | consulta |
-| 9 | [Avançado](09-avancado.md) | `stash`, `rebase`, `cherry-pick`, `reflog` | quando quiser |
 | 📖 | [Glossário](glossario.md) | Todos os termos explicados | consulta |
+
+> 🔐 **E o login no GitHub?** Não precisa configurar nada agora. No primeiro `git push`, o Git abre o navegador para você entrar na sua conta e guarda o acesso.
+
+## 🚀 Depois do primeiro PR
+
+Já fez o Desafio do 1º PR? Agora vale subir de nível:
+
+| Etapa | O que você aprende | Tempo |
+|---|---|---|
+| [Chave SSH](03-configuracao/ssh.md) | Conectar ao GitHub do jeito mais usado no dia a dia profissional | 15 min |
+| [Avançado](09-avancado.md) | `stash`, `rebase`, `cherry-pick`, `reflog` | quando quiser |
 
 ## 🤖 E a IA?
 
