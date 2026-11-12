@@ -55,7 +55,16 @@ git switch -c feat/card-SEU-USERNAME
 
 No Desafio do 1º PR, você cria o arquivo **`membros/SEU-USERNAME.json`** com o JSON que o [site de onboarding](https://onboarding.unidunedev.workers.dev) gerou para você.
 
-> ⚠️ O nome do arquivo precisa ser **exatamente** o seu username do GitHub.
+> ⚠️ **Atenção ao nome do arquivo:** ele precisa ser **exatamente o seu username do GitHub, em minúsculas**, igual ao campo `"github"` dentro do JSON.
+>
+> | `"github"` no JSON | Nome do arquivo | Resultado |
+> |---|---|---|
+> | `"ana-dev"` | `membros/ana-dev.json` | ✅ Certo |
+> | `"ana-dev"` | `membros/Ana-Dev.json` | ❌ Maiúsculas no arquivo |
+> | `"Ana-Dev"` | `membros/ana-dev.json` | ❌ Maiúsculas no JSON |
+> | `"ana-dev"` | `membros/ana.json` | ❌ Nomes diferentes |
+>
+> Se estiver diferente, o check **Validar membros** fica vermelho e explica o que corrigir.
 
 Quer conferir antes de enviar? Se tiver o Node.js instalado:
 
