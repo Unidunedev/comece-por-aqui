@@ -24,6 +24,8 @@ Recrutadores olham o GitHub. Vale 5 minutos:
 - **Nome e bio curta:** por exemplo, "Estudante de ADS · aprendendo front-end".
 - **README de perfil (opcional):** crie um repositório com **o mesmo nome do seu username**. O `README.md` dele aparece na página do seu perfil.
 
+> 🎥 Vídeo de apoio: [Como customizar o link do GitHub](https://www.youtube.com/watch?v=TsaLQAetPLU)
+
 ## Ative a verificação em duas etapas (2FA)
 
 O GitHub exige 2FA para quem contribui com código. Em **Settings → Password and authentication → Two-factor authentication**, ative usando um aplicativo autenticador (Google Authenticator, Microsoft Authenticator, Authy...).

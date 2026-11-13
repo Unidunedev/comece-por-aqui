@@ -89,6 +89,8 @@ O `-d` só apaga se a branch já foi juntada, então é seguro.
 
 Se duas branches mudarem **a mesma linha** do mesmo arquivo, o Git não sabe qual escolher e pede sua ajuda. Isso se chama **conflito**. Não é um erro, é só uma pergunta. Veja como resolver no [guia de problemas](08-quando-da-errado.md#conflito-de-merge).
 
+> 🎥 Quer ver isso na prática? A [parte 2 do vídeo de Git e GitHub](https://www.youtube.com/watch?v=UBAX-13g8OM) complementa esta etapa e as próximas.
+
 ## ✅ Checkpoint
 
 ```bash

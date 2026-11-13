@@ -70,6 +70,11 @@ flowchart LR
 
 Praticamente toda empresa de tecnologia usa Git. Saber usar bem é uma das habilidades mais pedidas para quem está começando, e uma das que mais aparecem no seu perfil do GitHub, que funciona como um portfólio.
 
+## 🎥 Prefere vídeo?
+
+- [Git e GitHub, parte 1](https://www.youtube.com/watch?v=DqTITcMq68k)
+- [Git e GitHub, parte 2](https://www.youtube.com/watch?v=UBAX-13g8OM)
+
 ## ✅ Checkpoint
 
 Responda com suas palavras:

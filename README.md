@@ -46,6 +46,18 @@ Já fez o Desafio do 1º PR? Agora vale subir de nível:
 | [Chave SSH](03-configuracao/ssh.md) | Conectar ao GitHub do jeito mais usado no dia a dia profissional | 15 min |
 | [Avançado](09-avancado.md) | `stash`, `rebase`, `cherry-pick`, `reflog` | quando quiser |
 
+## 🎥 Vídeos de apoio
+
+Prefere aprender vendo? Estes vídeos complementam a trilha:
+
+| Vídeo | Combina com |
+|---|---|
+| [Git e GitHub, parte 1](https://www.youtube.com/watch?v=DqTITcMq68k) | Etapas 0 a 4 |
+| [Git e GitHub, parte 2](https://www.youtube.com/watch?v=UBAX-13g8OM) | Etapas 5 a 7 |
+| [Como customizar o link do GitHub](https://www.youtube.com/watch?v=TsaLQAetPLU) | Etapa 2: conta no GitHub |
+
+> 💡 Assista e depois **faça** os passos da trilha no seu computador. Vídeo ajuda a entender, mas é a prática que fixa.
+
 ## 🤖 E a IA?
 
 Pode usar, mas do jeito certo:
